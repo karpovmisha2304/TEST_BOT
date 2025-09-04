@@ -18,7 +18,7 @@ dp = Dispatcher()
 user_dict: dict[int, dict[str, str | int | bool]] = {}
 
 
-# Cоздаем класс, наследуемый от StatesGroup, для группы состояний нашей FSM
+# Cоздаем класс, наследуемый от StatesGroup, для группы состояний нашей FSM asd
 class FSMFillForm(StatesGroup):
     # Создаем экземпляры класса State, последовательно
     # перечисляя возможные состояния, в которых будет находиться
