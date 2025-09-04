@@ -1,8 +1,6 @@
-venv/
-.venv/
 .env
+.venv
 .mypy_cache/
-__pycache__/
 .vscode/
-.DS_Store
-.ruff_cache/
+venv/
+__pycache__/
